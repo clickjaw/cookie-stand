@@ -51,9 +51,15 @@ let Seattle = {
 console.log(Seattle.customerCountPerHours());
 console.log(Seattle.cookiesCountPerHour());
 
+
+let seattleHeader = document.createElement('header');
+seattleHeader.textContent = "Seattle Sales";
+
 let CookieCount = document.getElementById('CookieCount')
 let cookieContainer = document.getElementById('cookieHours');
 let ul = document.createElement('ul');
+ul.append(seattleHeader);
+
 
 
 function render(hours) {
@@ -62,26 +68,49 @@ function render(hours) {
 
         //     create a list Element
         let li = document.createElement('li');
-        li.textContent = `${hours[i]}`
+        li.textContent = `${hours[i]}: ${Seattle.customersPerHour[i]}`
         //     append list to ul
 
         ul.append(li);
+
+        // let totalLi = document.createElement('li');
+        // totalLi.textContent = 
     }
     
     cookieContainer.append(ul); //adding ul to our div
 }
 
-function render(cookiesCountPerHour){
-    
-    for(let i = 0; i < hours.length; i++){
-    let li = document.createElement('li');
-    li.textContent = `${cookiesCountPerHour[i]}`
-    ul.append(li);
-}
-    CookieCount.append(ul);
+// Seattle.customerCountPerHours();
+// render(hours);
+
+let seattleTable = document.getElementById('seattleTable');
+let tableHeaderContainer = document.createElement('thead');
+let tableHeaderElement = document.createElement('th');
+let tableRow = document.createElement("tr");
+
+
+function renderSeattleSalesTable(hours){
+    for (let i = 0; i < hours.length; i++){
+        let tableData = document.createElement('td');
+
+        tableHeaderElement.textContent = `${hours}: ${Seattle.customersPerHour[i]}`;
+        tableRow.append(tableHeaderElement);
+        tableHeaderContainer.append(tableRow);
+        seattleTable.append(tableHeaderContainer);
+        
+    }
+    seattleTable.append(tableHeaderElement);
 }
 render(hours);
-render(Seattle.cookiesCountPerHour());
+renderSeattleSalesTable();
+
+
+
+
+
+
+
+
 
 // TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO TOKYO
 
@@ -120,6 +149,35 @@ let Tokyo = {
 
 console.log(Tokyo.customerCountPerHours());
 console.log(Tokyo.cookiesCountPerHour());
+
+// // let CookieCount = document.getElementById('CookieCount')
+// let cookieContainerTokyo = document.getElementById('cookieHoursTokyo');
+// let ulTokyo = document.createElement('ul');
+
+
+// function render(hours) {
+//     // rendering the hours AND COOKIES
+//     for (let i = 0; i < hours.length; i++) {
+
+//         //     create a list Element
+//         let li = document.createElement('li');
+//         li.textContent = `${hours[i]}: ${Tokyo.customersPerHour[i]}`
+//         //     append list to ul
+
+//         ulTokyo.append(li);
+
+//         // let totalLi = document.createElement('li');
+//         // totalLi.textContent = 
+//     }
+    
+//     cookieContainerTokyo.append(ul); //adding ul to our div
+// }
+
+// Tokyo.customerCountPerHours();
+// render(hours);
+
+
+
 
 
 
