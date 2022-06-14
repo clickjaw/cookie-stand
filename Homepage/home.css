@@ -1,0 +1,42 @@
+#header {
+    background-color: #ffffff; /* Grey background */
+    background-image: url("https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/assets/salmon.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    padding: 140px 10px; /* Some padding */
+    color: black;
+    text-align: center; /* Centered text */
+    font-size: 90px; /* Big font size */
+    font-weight: bold;
+    position: fixed; /* Fixed position - sit on top of the page */
+    top: 0;
+    width: 100%; /* Full width */
+  }
+  
+h1{
+  margin-top:300px;
+  padding:15px 15px 2500px;
+  font-size:30px;
+  text-align: center;
+  font-size: 100px;
+  color: black;
+  font-family: 'Bebas Neue', cursive;
+}
+
+h3{
+  margin-top:300px;
+  padding:15px 15px ;
+  font-size:30px;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  font-family: 'Bebas Neue', cursive;
+}
+footer{
+  text-align: center;
+}
+.contentbox{
+  background-color: gray;
+  padding: 100px 100px 100px 100px;
+    
+  }
