@@ -4,6 +4,10 @@ header{
 html {
     font-family: sans-serif;
   }
+
+  body{
+    background: grey;
+  }
   
   table {
     border-collapse: collapse;

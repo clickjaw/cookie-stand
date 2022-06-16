@@ -1,3 +1,3 @@
-"use strict";
+// "use strict";
 
-window.onscroll = function() {scrollFunction()};
+// window.onscroll = function() {scrollFunction()};
