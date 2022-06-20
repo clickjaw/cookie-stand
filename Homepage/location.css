@@ -1,0 +1,132 @@
+body{
+  background-color: #f1f4e9;
+
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+    
+}
+a:visited{
+    color: black;
+}
+
+header{
+    position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index:999;
+
+    background-color: #EFC9A9;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    /* text-align: center; */
+    /* padding: 15px 15px 15px 15px; */
+    padding-top: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    gap:  30px px;
+    
+    /* justify-content: center; */
+  }
+
+.locations{
+    padding-bottom:20px;
+    display: grid;
+    justify-content: center;
+    padding-top: 95px;
+    
+}
+
+.seattle{
+    margin: 15px;
+    width : 800px;
+    height: 200px;
+    display: grid;
+    background-color: #EFC9A9;
+    padding: 20px;
+    justify-content: center;
+    border: solid black;
+    border-width: 5px;
+
+}
+
+.tokyo{
+    margin: 15px;
+    width : 800px;
+    height: 200px;
+    display: grid;
+    background-color: #EFC9A9;
+    padding: 20px;
+    justify-content: center;
+    border: solid black;
+    border-width: 5px;
+}
+
+.paris{
+    margin: 15px;
+    width : 800px;
+    height: 200px;
+    display: grid;
+    background-color: #EFC9A9;
+    padding: 20px;
+    justify-content: center;
+    border: solid black;
+    border-width: 5px;
+}
+
+.dubai{
+    margin: 15px;
+    width : 800px;
+    height: 200px;
+    display: grid;
+    background-color: #EFC9A9;
+    padding: 20px;
+    justify-content: center;
+    border: solid black;
+    border-width: 5px;
+}
+
+.lima{
+    margin:15px;
+    width : 800px;
+    height: 200px;
+    display: grid;
+    background-color: #EFC9A9;
+    padding: 20px;
+    justify-content: center;
+    padding-bottom: 30px;
+    border: solid black;
+    border-width: 5px;
+}
+
+
+
+
+
+
+
+
+
+  footer{
+    background-color: black;
+    color: white;
+    /* position: fixed;
+    bottom:0; */
+    width: 100%;
+    /* text-align: center; */
+    /* padding: 15px 15px 15px 15px; */
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    word-spacing: 30px;
+    height: 50px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap:  30px 30px;
+  
+  }

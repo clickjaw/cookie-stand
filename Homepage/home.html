@@ -1,30 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-
-
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
-
-
-
-
-    <link rel="stylesheet" href="home.css">
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pat's Cookies</title>
+    <link rel="stylesheet" href="home.css">
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+    <title>Salmon Cookies Home</title>
 </head>
 <body>
-    <div id="header"></div>
-<div class = "contentBox">
-<p><h1>Pat's Salmon Cookies</h1></p>
+    <header>
+        <img src="https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/assets/salmon.png" width = "200" height = "70" ;
+        >
+        <div class = "pHeader"><a href = "home.html">Home</a></div>
+        <div class = "pHeader"><a href = "location.html">Locations</a></div>
+        <div class = "pHeader"><a href = "aboutUs.html">About Us</a></div>
+        <div class = "pHeader"><a href = "sales.html">Sales</a></div>
 
-<p><h3> Seattle Paris Tokyo Dubai Lima </h3></p>
+        
+    </header>
+
+    <div class = "container">
+        
+        <div class="container-one">
+            <br>All Stores <br>Open Daily<br>
+                7am-7pm
+            
+
+        </div>
+        <div class="container-two">
+            from THE DOCK<br>
+            to THE BAKERY<br>
+            to YOU<br>
+            enjoy.
+
+        </div>
+        <div class="container-three">
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="375" id="gmap_canvas" src="https://maps.google.com/maps?q=seattle&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:375px;width:300px;}</style><a href="https://www.embedgooglemap.net">add google map to website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:375px;width:300px;}</style></div></div>
+            <!-- <img src="https://www.google.com/maps/d/thumbnail?mid=1bwwdAoQe6Hoq6LFIhld3ZL7-JLg&hl=en" width = "300" height = "375"/> -->
+
+        </div>  
+    </div>
+<div class = "sectionContainer">
+
+    <div class = "sectionBanner">
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F37%2F2011%2F06%2F14%2FR018255.jpg" width= '480' height= "380" />
+    </div>
+
+   <!-- THIS IS THE CONTACT US FORM -->
+    <!-- <div class = "sectionScrollContainer"> -->
+    <div id = "contact-us">
+        <h1>Contact Us</h1>
+         <form action = "home.js" method = "post" id = "contact_form">
+            <label for = "firstName">First Name:</label>
+            <input type = "text" name = "firstName" id = "firstName">
+            <br><br>
+            <label for = "lastName">Last Name:</label>
+            <input type = "text" name = "lastName" id = "lastname">
+            <br><br>
+            <label for = "email">Email: </label>
+            <input type = "email" name = "email" id = "email">
+            <br><br>
+            <input type = "submit" value = "Submit">
+         </form>
+
+
+
+    </div>
+    <!-- <div class = "sectionButton">    <p><img src="https://place-hold.it/250x50/ddd" /></p>
+    </div> -->
+
+    </div>
+
+   
 </div>
-<footer>Ray's Salmon Cookies &copy; 2022 </footer>
-</body>
 <script src = "home.js"></script>
+<footer>
+    Seattle Tokyo Paris Dubai Lima
+    </footer>
+</body>
 </html>
