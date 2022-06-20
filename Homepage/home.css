@@ -1,3 +1,19 @@
+body{
+ 
+  padding-bottom: 25px;
+
+]  background-color: #fdffd3;
+
+}
+a:link{
+  text-decoration: none;
+  color: black;
+  
+}
+a:visited{
+  color: black;
+}
+
 .heroImage{
 
   display:flex;
@@ -10,60 +26,92 @@
   display:flex;
   gap: 30px 30px;   
   justify-content: center; 
+  padding-top: 90px;
   /* align-items: flex-end; */
   /* I have a container with flexbox properties */
 }
 
 .container-one{
-/* background-color: red;
-color:white;
+width: 300px;
+height: 375px;
+background-color: #EFC9A9;
+color: black;
+font-family: 'Bebas Neue', cursive;
+font-size: 60px;
+text-align:justify;
 padding: 0px 20px px 20px;
-/* margin: 20px; */
-display:grid;
-justify-content:space-evenly;
+margin: 20px;
+display:flex;
+justify-content:center;
+border: solid black;
+border-width: 5px;
 }
 .container-two{
+  background-color: #EFC9A9;
   /* background-color:blue;
   color:white;
   /* display: flex; */
   /* padding: 20px 20px 20px 20px;
-  margin: 20px; */
+  */
+  font-family: 'Bebas Neue', cursive;
+  line-height:148%;
+  font-size:60px;
+  text-align:justify;
+  width: 300px;
+  height: 375px;
+  margin: 20px;
   display:grid;
-  justify-content: space-evenly;
+  justify-content: center;
+  border: solid black;
+border-width: 5px;
 }
 .container-three{
-/* background-color: grey;
-color:white;
-/* display: flex; */
-/* padding: 20px 20px 20px 20px;
-margin: 20px; */
+
+  width: 300px;
+  height: 375px;
+  background-color: #EFC9A9;
+  color: black;
+  font-family: 'Bebas Neue', cursive;
+  margin: 20px;
 display:grid;
 justify-content: space-evenly;
+
+border: solid black;
+border-width: 5px;
+}
+
+.container-three img{
+poistion:relative;
+top: 20px;
 }
 
 /* HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEAADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER */
 
 header{
-  background-color: darkgreen;
-  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index:999;
+
+  background-color: #EFC9A9;
+  color: black;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
   /* text-align: center; */
   /* padding: 15px 15px 15px 15px; */
-  height: 100px;
+  padding-top: 10px;
+  height: 80px;
   display: flex;
   justify-content: space-around;
-  gap:  30px 30px;
+  gap:  30px px;
   
   /* justify-content: center; */
 }
-.pHeader{
-padding-top: 39px;
-justify-content: center
-
-}
 
 
-#logoBlock{
-gap: 200px;}
+
+
 /* SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION */
 
 
@@ -71,28 +119,52 @@ gap: 200px;}
   display:flex;
   gap: 30px 40px;   
   justify-content:  center;
+  padding-bottom: 15px;
+  
 
 }
 .sectionBanner{
-justify-content: center;
+/* justify-content: center; */
+gap: 30px 40px;
+display:flex;
+width: 480px;
+height:380px;
+margin-top:17px;
+border: solid #EFC9A9;
+border-width: 10px;
+
+
 }
+
+.sectionBanner img{
+
+display:flex;
+
+}
+
 .sectionScrollContainer{
   display: flex;
   justify-content:center;
   flex-direction: column;
+ 
+ 
 }
-.sectionScroll{
+#contact-us{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
   justify-content: right;
-
-  background: lightgrey;
-  color: green;
+  width:480px;
+  height:400px;
+  background: #EFC9A9;
+  color: black;
   margin-top:16px;
-  padding: 15px;
+  padding-left:10px;
   width: 25%;
-  height: 300px;
-  overflow: scroll;
-  border: 1px solid #ccc;
+  
+  /* overflow: scroll; */
 }
+
+
 /* .sectionButton{
   display:grid;
   background-color: green;
@@ -100,20 +172,18 @@ justify-content: center;
 
 } */
 
-
-header h1{
-  font-weight: bold;
-  height: 20px;
-}
-
 footer{
-  background-color: darkgreen;
+  background-color: black;
   color: white;
   /* text-align: center; */
   /* padding: 15px 15px 15px 15px; */
-  height: 100px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
+  word-spacing: 30px;
+  height: 50px;
+  padding-top: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap:  30px 30px;
 
 }

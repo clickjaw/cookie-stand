@@ -5,62 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
-    <title>CSS Flexbox</title>
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+    <title>Salmon Cookies Home</title>
 </head>
 <body>
     <header>
-        <div id = "logoBlock">
-        <p><img src="https://place-hold.it/200x70/ddd" /></p>
-        </div>
-        <div class = "pHeader">Nav 1</div>
-        <div class = "pHeader">Nav 2</div>
-        <div class = "pHeader">Nav 3</div>
-        <div class = "pHeader">Nav 4</div>
+        <img src="https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/assets/salmon.png" width = "200" height = "70" ;
+        >
+        <div class = "pHeader"><a href = "home.html">Home</a></div>
+        <div class = "pHeader"><a href = "location.html">Locations</a></div>
+        <div class = "pHeader"><a href = "aboutUs.html">About Us</a></div>
+        <div class = "pHeader"><a href = "sales.html">Sales</a></div>
 
         
-
     </header>
 
-
-    <div class = "heroImage">
-            <p><img src="https://place-hold.it/960x450/ddd" /></p>
-    </div>
     <div class = "container">
         
         <div class="container-one">
-            <p><img src="https://place-hold.it/300x375/ddd" /></p>
+            <br>All Stores <br>Open Daily<br>
+                7am-7pm
+            
 
         </div>
         <div class="container-two">
-            <p><img src="https://place-hold.it/300x375/ddd" /></p>
+            from THE DOCK<br>
+            to THE BAKERY<br>
+            to YOU<br>
+            enjoy.
 
         </div>
         <div class="container-three">
-            <p><img src="https://place-hold.it/300x375/ddd" /></p>
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="375" id="gmap_canvas" src="https://maps.google.com/maps?q=seattle&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:375px;width:300px;}</style><a href="https://www.embedgooglemap.net">add google map to website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:375px;width:300px;}</style></div></div>
+            <!-- <img src="https://www.google.com/maps/d/thumbnail?mid=1bwwdAoQe6Hoq6LFIhld3ZL7-JLg&hl=en" width = "300" height = "375"/> -->
 
         </div>  
     </div>
 <div class = "sectionContainer">
 
     <div class = "sectionBanner">
-        <p><img src="https://place-hold.it/480x400/ddd" /></p>
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F37%2F2011%2F06%2F14%2FR018255.jpg" width= '480' height= "380" />
     </div>
 
-   
-    <div class = "sectionScrollContainer">
-    <div class = "sectionScroll">This text is really long and the height of its container is only 100 pixels. Therefore, a scrollbar is added to help the reader to scroll the content. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
+   <!-- THIS IS THE CONTACT US FORM -->
+    <!-- <div class = "sectionScrollContainer"> -->
+    <div id = "contact-us">
+        <h1>Contact Us</h1>
+         <form action = "home.js" method = "post" id = "contact_form">
+            <label for = "firstName">First Name:</label>
+            <input type = "text" name = "firstName" id = "firstName">
+            <br><br>
+            <label for = "lastName">Last Name:</label>
+            <input type = "text" name = "lastName" id = "lastname">
+            <br><br>
+            <label for = "email">Email: </label>
+            <input type = "email" name = "email" id = "email">
+            <br><br>
+            <input type = "submit" value = "Submit">
+         </form>
+
+
+
     </div>
-    <div class = "sectionButton">    <p><img src="https://place-hold.it/250x50/ddd" /></p>
-    </div>
+    <!-- <div class = "sectionButton">    <p><img src="https://place-hold.it/250x50/ddd" /></p>
+    </div> -->
 
     </div>
 
    
 </div>
-
+<script src = "home.js"></script>
 <footer>
-    <div class = "pHeader">Tyler and Shit 2022</div>
-
+    Seattle Tokyo Paris Dubai Lima
     </footer>
 </body>
 </html>

@@ -1,0 +1,95 @@
+
+/* HTML5 display-role reset for older browsers */
+
+a:link{
+    text-decoration: none;
+    color: black;
+    
+}
+a:visited{
+    color: black;
+}
+body{
+  background-color: #f1f4e9;
+
+    color:black;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.container{
+    display:grid;
+    justify-content: center;
+    padding-bottom: 25px;
+ 
+}
+header{
+position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index:999;
+
+
+
+    background-color: #EFC9A9;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    /* text-align: center; */
+    /* padding: 15px 15px 15px 15px; */
+    padding-top: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    gap:  30px px;
+    width:100%;
+    
+    /* justify-content: center; */
+  }
+
+
+.aboutHeader{
+    color:black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin:15px;
+    padding-top: 15px;
+}
+.fishLogo{
+
+    display:grid;
+    justify-content: center;
+    padding-bottom: 25px;
+    padding-top: 90px;
+}
+
+.aboutUs{
+
+    font-family: 'Bebas Neue', cursive;
+    color:black;
+    font-size: 24px;
+    background-color: #EFC9A9;
+    width:600px;
+    padding: 20px;
+    height: auto;
+    text-align:justify;
+    border: solid black;
+    border-width: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    /* text-align: center; */
+    /* padding: 15px 15px 15px 15px; */
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    word-spacing: 30px;
+    height: 50px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap:  30px 30px;
+  
+  }
